@@ -1,0 +1,6 @@
+create database materias;
+
+use materias;
+
+create table tblmateria(idmateria int autoincrement primary key,
+nombreEstudiante varchar(20),materia varchar(20));
